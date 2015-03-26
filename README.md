@@ -41,6 +41,7 @@ were actually executed by reading the output on the console.
 
 
 *Note:*
+
 The code used in these tutorials is intended to run on the KIPR Link controller and written in 
 the KISS Platform. You can find information about the KIPR Link and KISS Platform at 
 http://www.kipr.org/hardware-software. The KISS Platform includes a simulator, so you can run 
