@@ -25,4 +25,14 @@ the command.  We would write that like this:
   	}
 
 So, we're "evaluating" the part in parentheses - we call this the "expression". If that is 
-true, then we continue inside the curly brackets.
+true, then we continue inside the curly brackets. Otherwise, we skip what's in the curly 
+brackets and continue on after that.
+
+The program in the `main.c` file will test some expressions and move the robot either 
+forward or backward. The robot will start behind the start line on Mat A. Read through the 
+code and try to predict which blocks will be executed and which will be ignored. Then, 
+determine if the robot will end up back in the starting box, or somewhere past the starting 
+line on the game board.
+
+After running the program, take a look at the console on the robot. You'll see which blocks 
+were actually executed by reading the output on the console.
