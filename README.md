@@ -25,4 +25,5 @@ the command.  We would write that like this:
   	}
 
 So, we're "evaluating" the part in parentheses - we call this the "expression". If that is 
-true, then we continue inside the curly brackets.
+true, then we continue inside the curly brackets. Otherwise, we skip what's in the curly 
+brackets and continue on after that.
