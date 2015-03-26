@@ -1,7 +1,6 @@
 /**
  *  CONDITIONALS
  *
- *  Hokey Pokey
  *  Newcastle Robotics Junior Botball Team
  *  2nd - 5th Grade
  *
