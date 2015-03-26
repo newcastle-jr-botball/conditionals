@@ -1,5 +1,10 @@
 /**
  *  CONDITIONALS
+ *
+ *  Hokey Pokey
+ *  Newcastle Robotics Junior Botball Team
+ *  2nd - 5th Grade
+ *
  *  Conditionals are a way to give your robot decision making abilities. We do this by 
  *  evaluating an expression to be either TRUE or FALSE. 
  *
