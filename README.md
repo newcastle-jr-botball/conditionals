@@ -33,3 +33,6 @@ forward or backward. The robot will start behind the start line on Mat A. Read t
 code and try to predict which blocks will be executed and which will be ignored. Then, 
 determine if the robot will end up back in the starting box, or somewhere past the starting 
 line on the game board.
+
+After running the program, take a look at the console on the robot. You'll see which blocks 
+were actually executed by reading the output on the console.
