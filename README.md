@@ -8,7 +8,7 @@ list we'll start with (Relational Operators):
 Operator  |  Meaning          |   Example     | Result of Example
 --------- | ----------------- | ------------- | -------------
 ==     |  Equal to         |  5 == 5  | this is true, because 5 is "equal to" 5
-!=     |  Not Equal to     |  5 != 3  | this is also true, 5 does not equal 3
+!=     |  Not Equal to     |  5 != 3  | this is also true, 5 does "not equal" 3
 >      |  Greater than     |  5 > 3   | this is true, 5 is "greater than" 3
 <      |  Less than        |  5 < 3   | this is NOT true, 5 is not "less than" 3
 >=     |  Greater than or equal to  |  5 >= 5  | this is true, 5 is "equal to" 5
