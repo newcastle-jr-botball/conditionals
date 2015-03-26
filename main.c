@@ -1,8 +1,7 @@
 /**
  *  CONDITIONALS
  *  Conditionals are a way to give your robot decision making abilities. We do this by 
- *  evaluating an expression to be either TRUE or FALSE. In computers, true or false is 
- *  indicated by either 0 (false) or anything that is not 0 (true).
+ *  evaluating an expression to be either TRUE or FALSE. 
  *
  *  In order to "evaluate" an expression, we need to know what "operators" are. Here's the 
  *  list we'll start with (Relational Operators):
