@@ -43,6 +43,7 @@ int main()
 	if ( 5 == 5 ) 
 	{
 		// move forward 1 second
+		printf("Moving forward because: 5 == 5 \n");
 		motor(0, 100);
 		motor(3, 100);
 		msleep(1000);
@@ -51,6 +52,7 @@ int main()
 	if ( 5 != 5 )
 	{
 		// move backward 1 second
+		printf("Moving backward because: 5 != 5 \n");
 		motor(0, -100);
 		motor(3, -100);
 		msleep(1000);
@@ -59,6 +61,7 @@ int main()
 	if ( 5 > 6 ) 
 	{
 		// move forward 1 second
+		printf("Moving forward because: 5 > 6 \n");
 		motor(0, 100);
 		motor(3, 100);
 		msleep(1000);
@@ -67,6 +70,7 @@ int main()
 	if ( 5 < 6 )
 	{
 		// move forward 1 second
+		printf("Moving forward because: 5 < 6 \n");
 		motor(0, 100);
 		motor(3, 100);
 		msleep(1000);
@@ -75,6 +79,7 @@ int main()
 	if ( 5 >= 7 )
 	{
 		// move backward 1 second
+		printf("Moving backward because: 5 >= 7 \n");
 		motor(0, -100);
 		motor(3, -100);
 		msleep(1000);
@@ -83,6 +88,7 @@ int main()
 	if ( 5 >= 5 ) 
 	{
 		// move forward 1 second
+		printf("Moving forward because: 5 >= 5 \n");
 		motor(0, 100);
 		motor(3, 100);
 		msleep(1000);
@@ -91,6 +97,7 @@ int main()
 	if ( 5 <= 7 )
 	{
 		// move backward 1 second
+		printf("Moving backward because: 5 <= 7 \n");
 		motor(0, -100);
 		motor(3, -100);
 		msleep(1000);
@@ -99,6 +106,7 @@ int main()
 	if ( 5 <= 4 ) 
 	{
 		// move backward 1 second
+		printf("Moving backward because: 5 <= 4 \n");
 		motor(0, -100);
 		motor(3, -100);
 		msleep(1000);
@@ -107,10 +115,12 @@ int main()
 	if ( 5 <= 5 ) 
 	{
 		// move backward 1 second
+		printf("Moving backward because: 5 <= 5 \n");
 		motor(0, -100);
 		motor(3, -100);
 		msleep(1000);
 	}
 	
+	ao(); // turn off all motors
 	return 0;
 }
