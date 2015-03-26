@@ -32,7 +32,9 @@ The program in the `main.c` file will test some expressions and move the robot e
 forward or backward. The robot will start behind the start line on Mat A. Read through the 
 code and try to predict which blocks will be executed and which will be ignored. Then, 
 determine if the robot will end up back in the starting box, or somewhere past the starting 
-line on the game board.
+line on the game board. _If you don't have the Jr. Botball game boards, you can just put the 
+robot down in front of a line and see if the robot ends up back on the same side of the line
+that it started._
 
 After running the program, take a look at the console on the robot. You'll see which blocks 
 were actually executed by reading the output on the console.
