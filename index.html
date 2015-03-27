@@ -1,0 +1,147 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="chrome=1">
+    <title>Conditionals by newcastle-jr-botball</title>
+
+    <link rel="stylesheet" href="stylesheets/styles.css">
+    <link rel="stylesheet" href="stylesheets/pygment_trac.css">
+    <script src="javascripts/scale.fix.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+    <!--[if lt IE 9]>
+    <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+    <![endif]-->
+  </head>
+  <body>
+    <div class="wrapper">
+      <header>
+        <h1>Conditionals</h1>
+        <p>This is a small basic script helping to explain &quot;if&quot; conditionals to elementary students using the KIPR Link robot used in the Junior Botball Challenges.</p>
+        <p class="view"><a href="https://github.com/newcastle-jr-botball/conditionals">View the Project on GitHub <small>newcastle-jr-botball/conditionals</small></a></p>
+        <ul>
+          <li><a href="https://github.com/newcastle-jr-botball/conditionals/zipball/master">Download <strong>ZIP File</strong></a></li>
+          <li><a href="https://github.com/newcastle-jr-botball/conditionals/tarball/master">Download <strong>TAR Ball</strong></a></li>
+          <li><a href="https://github.com/newcastle-jr-botball/conditionals">View On <strong>GitHub</strong></a></li>
+        </ul>
+      </header>
+      <section>
+        <h1>
+<a id="conditionals" class="anchor" href="#conditionals" aria-hidden="true"><span class="octicon octicon-link"></span></a>Conditionals</h1>
+
+<p>Conditionals are a way to give your robot decision making abilities. We do this by 
+evaluating an expression to be either TRUE or FALSE. </p>
+
+<p>In order to "evaluate" an expression, we need to know what "operators" are. Here's the 
+list we'll start with (Relational Operators):</p>
+
+<table>
+<thead>
+<tr>
+<th>Operator</th>
+<th>Meaning</th>
+<th>Example</th>
+<th>Result of Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>==</td>
+<td>Equal to</td>
+<td>5 == 5</td>
+<td>this is true, because 5 is "equal to" 5</td>
+</tr>
+<tr>
+<td>!=</td>
+<td>Not Equal to</td>
+<td>5 != 3</td>
+<td>this is also true, 5 does "not equal" 3</td>
+</tr>
+<tr>
+<td>&gt;</td>
+<td>Greater than</td>
+<td>5 &gt; 3</td>
+<td>this is true, 5 is "greater than" 3</td>
+</tr>
+<tr>
+<td>&lt;</td>
+<td>Less than</td>
+<td>5 &lt; 3</td>
+<td>this is NOT true, 5 is not "less than" 3</td>
+</tr>
+<tr>
+<td>&gt;=</td>
+<td>Greater than or equal to</td>
+<td>5 &gt;= 5</td>
+<td>this is true, 5 is "equal to" 5</td>
+</tr>
+<tr>
+<td>&lt;=</td>
+<td>Less than or equal to</td>
+<td>5 &lt;= 6</td>
+<td>this is true, 5 is "less than" 6</td>
+</tr>
+</tbody>
+</table>
+
+<p>We'll start with an "if" conditional. "If" is a keyword that will help us to evaluate our 
+statement.  For example, when you play Simon Says, in your mind, you're making the decision 
+whether to carry out the command based on "if" the caller says "Simon Says" before they say 
+the command.  We would write that like this:</p>
+
+<pre><code>if (caller says "Simon Says") 
+{
+    do the command
+}
+</code></pre>
+
+<p>So, we're "evaluating" the part in parentheses - we call this the "expression". If that is 
+true, then we continue inside the curly brackets. Otherwise, we skip what's in the curly 
+brackets and continue on after that.</p>
+
+<p>The way we write this in actual code is:</p>
+
+<pre><code>if (TRUE)
+{
+    doThisCommand();
+}
+</code></pre>
+
+<p>or</p>
+
+<pre><code>if ( 5 == 5 ) // which evaluates to TRUE
+{
+    doThisCommand();
+}
+</code></pre>
+
+<p>The program in the <code>main.c</code> file will test some expressions and move the robot either 
+forward or backward. The robot will start behind the start line on Mat A. Read through the 
+code and try to predict which blocks will be executed and which will be ignored. Then, 
+determine if the robot will end up back in the starting box, or somewhere past the starting 
+line on the game board. <em>If you don't have the Jr. Botball game boards, you can just put the 
+robot down in front of a line and see if the robot ends up back on the same side of the line
+that it started.</em></p>
+
+<p>After running the program, take a look at the console on the robot. You'll see which blocks 
+were actually executed by reading the output on the console.</p>
+
+<p><em>Note:</em></p>
+
+<p>The code used in these tutorials is intended to run on the KIPR Link controller and written in 
+the KISS Platform. You can find information about the KIPR Link and KISS Platform at 
+<a href="http://www.kipr.org/hardware-software">http://www.kipr.org/hardware-software</a>. The KISS Platform includes a simulator, so you can run 
+the code on your computer without a robot. Our Botball team currently participates in the Junior 
+Botball Challenge sponsored by KIPR. You can view more information for the challenge at 
+<a href="http://www.juniorbotballchallenge.org">http://www.juniorbotballchallenge.org</a>.</p>
+      </section>
+    </div>
+    <footer>
+      <p>Project maintained by <a href="https://github.com/newcastle-jr-botball">newcastle-jr-botball</a></p>
+      <p>Hosted on GitHub Pages &mdash; Theme by <a href="https://github.com/orderedlist">orderedlist</a></p>
+    </footer>
+    <!--[if !IE]><script>fixScale(document);</script><![endif]-->
+    
+  </body>
+</html>
