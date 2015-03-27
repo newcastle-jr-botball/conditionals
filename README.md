@@ -28,6 +28,20 @@ So, we're "evaluating" the part in parentheses - we call this the "expression". 
 true, then we continue inside the curly brackets. Otherwise, we skip what's in the curly 
 brackets and continue on after that.
 
+The way we write this in actual code is:
+
+    if (TRUE)
+    {
+        doThisCommand();
+    }
+    
+or
+
+    if ( 5 == 5 ) // which evaluates to TRUE
+    {
+        doThisCommand();
+    }
+
 The program in the `main.c` file will test some expressions and move the robot either 
 forward or backward. The robot will start behind the start line on Mat A. Read through the 
 code and try to predict which blocks will be executed and which will be ignored. Then, 
